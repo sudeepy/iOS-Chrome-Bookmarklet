@@ -5,6 +5,7 @@ I'm super excited about [Chrome for iOS](http://itunes.apple.com/us/app/chrome/i
 Here's the bookmarklet: javascript:window.location=document.location.href.replace('http://','googlechrome://');
 
 For setup instructions, you can follow [this tutorial](http://iosbookmarklets.com/tutorials/pinterest-bookmarklet-ipad/) with following modifications:
+* Ignore steps 2 and 3.
 * For step 4, copy the code above.
 * For step 7, you'll want choose a name like "Open in Chrome."
 * For step 8, paste the code above.
