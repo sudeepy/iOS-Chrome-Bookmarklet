@@ -2,7 +2,7 @@
 I'm super excited about [Chrome for iOS](http://itunes.apple.com/us/app/chrome/id535886823?mt=8). However, unlike Android, iOS does not allow you to register alternate default browsers. So when you open a link in your email/text message/etc, you're stuck with Safari. Until Apple changes this, here's the next best thing: a bookmarklet to help bridge the gap to Chrome. So now, any page you open in Safari, you can transfer straight to Chrome.
 
 # Setup
-Here's the bookmarklet: <pre><code>javascript:document.location.href.indexOf('https://')==0?window.location=document.location.href.replace('https://','googlechrome://'):window.location=document.location.href.replace('http://','googlechrome://')</pre></code>
+Here's the bookmarklet: <pre><code>javascript:document.location.href.indexOf('https://')==0?window.location=document.location.href.replace('https://','googlechromes://'):window.location=document.location.href.replace('http://','googlechrome://')</pre></code>
 
 For setup instructions, you can follow [this tutorial](http://iosbookmarklets.com/tutorials/pinterest-bookmarklet-ipad/) with following modifications:
 * Ignore steps 2 and 3.

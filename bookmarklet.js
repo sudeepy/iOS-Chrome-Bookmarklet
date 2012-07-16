@@ -1,1 +1,1 @@
-javascript:document.location.href.indexOf('https://')==0?window.location=document.location.href.replace('https://','googlechrome://'):window.location=document.location.href.replace('http://','googlechrome://')
+javascript:document.location.href.indexOf('https://')==0?window.location=document.location.href.replace('https://','googlechromes://'):window.location=document.location.href.replace('http://','googlechrome://')
